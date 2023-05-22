@@ -1,0 +1,636 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cabecera{
+	height: 120px;
+	width: 100%;
+	background-image: url("../imagenes/fondo1.jpg"); 
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 25px;
+}
+
+	.cabecera img{
+		height: 100px;
+		border-radius: 10px black;
+	}
+
+	.cabecera img:hover{
+		transform: scale(1.3);
+	}
+
+	.botones{
+		display: flex;
+		gap: 30px;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 22px;
+		border-radius: 10px;
+	}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+		a:hover{
+			color: seagreen;
+		}
+
+		h3{
+			text-decoration: underline;
+		}
+
+
+main{
+	background-image: url("../imagenes/fondo_main.jpg");
+}
+
+.botones_main{
+	background-color: seagreen;
+	border-radius: 8px;
+	color: whitesmoke;
+	border-color: whitesmoke;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	outline: none;
+}
+
+h2{
+	text-align: center ;
+}
+#quienes_somos{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+	.caja1{
+		height: 250px;
+		width: 45%;
+		text-align: center;
+		font-style: italic;
+		font-size: 20px;
+		color: whitesmoke;
+	}
+	.caja2{
+		height: 250px;
+		width: 45%;
+	}
+		.caja2 img{
+			height: 280px;
+			width: 450px;
+			border-radius: 30px;
+			transition: 2s;	
+		}
+		.caja2 img:hover{
+			transform:scale(1.3);
+		}
+
+#que_hacemos{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+	.caja3{
+		height: 150px;
+		width: 45%
+
+	}
+		.caja3 img{
+			height: 280px;
+			width: 450px;
+			border-radius: 30px;
+			transition: 2s;
+		}
+
+		.caja3 img:hover{
+			transform:scale(1.3);
+		}
+
+	.caja4{
+		height: 150px;
+		width: 45%;
+		text-align: center;
+		font-style: italic;
+		font-size: 22px;
+		color: whitesmoke;
+	}
+
+#galerías{
+	height: 650px;
+	width: 100%;
+	background-image: url("../imagenes/fondo_main.jpg");
+	display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 25px;
+	align-items: center;
+	text-align: center;
+	}
+
+	#galerías a{
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+		color: seagreen;
+	}
+
+	#galerías a:hover{
+		color: black;
+
+	}
+
+	.galería_título{
+		color: whitesmoke;
+		font-style: italic;
+		font-size: 22px
+	}
+
+.galería_imagenes{
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	justify-content: center
+}
+	.caja5a{
+			height: 200px;
+			width: 23%;
+			background-image: url("../imagenes/fondo1.jpg");
+			border-radius: 10px;
+		}
+		.caja5a p{
+            font-style: italic;
+			font-weight: bold;
+			font-size: 18px;
+		}
+
+	.caja5b{
+			height: 200px;
+			width: 23%;
+			background-image: url("../imagenes/fondo1.jpg");
+			border-radius: 10px;
+		}
+		.caja5b p{
+            font-style: italic;
+			font-weight: bold;
+			font-size: 18px;
+		}
+
+	.caja5c{
+			height: 200px;
+			width: 23%;
+			background-image: url("../imagenes/fondo1.jpg");
+			border-radius: 10px;
+		}
+		.caja5c p{
+            font-style: italic;
+			font-weight: bold;
+			font-size: 18px;
+		}
+
+	.caja5d{
+			height: 200px;
+			width: 23%;
+			background-image: url("../imagenes/fondo1.jpg");
+			border-radius: 10px;
+		}
+		.caja5d p{
+            font-style: italic;
+			font-weight: bold;
+			font-size: 18px;
+		}
+
+#ubicacion{
+	height: 400px;
+	width: 100%;
+	padding:10px;
+	color: whitesmoke;
+}
+
+	
+footer{
+	height: 150px;
+	background-image: linear-gradient(to left, seagreen, grey, seagreen)
+}
+
+footer h3{
+	text-align: center;
+}
+.redes{
+	color: black;
+	font-size: 60px;
+	text-align: center ;
+	padding: 20px;
+}
+
+
+
+
+						/* PAGINA FORMULARIO */
+.formulario{
+	padding: 20px;
+}
+.formulario h2{
+	color: whitesmoke;
+}
+.formulario p{
+	color: whitesmoke;
+}
+.formulario label{
+	color: whitesmoke;
+}
+
+
+                       /* GALERIA COCINA */
+.cabecera{
+	height: 140px;
+}
+.cocina{
+	height: 1000px;
+	display: grid;
+	align-items: center;
+	padding:10px;
+	row-gap:20px;
+	column-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 3fr 3fr;
+	
+	grid-template-areas: "titulo titulo titulo titulo"
+						  "foto1  foto2  foto3  foto4"
+                          "foto5  foto6  foto7  foto8";
+	}
+	
+	.encabezado{
+		grid-area: titulo;
+	}
+	.foto .foto1{
+		grid-area: foto1;
+	}
+    .foto .foto2{
+    	grid-area: foto2;
+    }
+    .foto .foto3{
+    	grid-area: foto3;
+    }
+    .foto .foto4{
+    	grid-area: foto4;
+    }
+    .foto .foto5{
+		grid-area: foto5;
+	}
+    .foto .foto6{
+    	grid-area: foto6;
+    }
+    .foto .foto7{
+    	grid-area: foto7;
+    }
+    .foto .foto8{
+    	grid-area: foto8;
+    }
+    img{
+    	width: 100%;
+    	height: 100%;
+    	border-radius: 10px;
+    	background-size: cover;
+    }
+    h2{
+		text-align: center;
+		font-size: 28px;
+		color: whitesmoke;
+		font-style: italic;
+	}
+
+                /*  GALERIA DORMITORIO   */
+
+.cabecera{
+	height: 140px;
+}
+.dormitorio{
+	height: 1000px;
+	display: grid;
+	align-items: center;
+	row-gap:20px;
+	column-gap: 20px;
+	padding:10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 3fr 3fr;
+	
+	grid-template-areas: "titulo titulo titulo titulo"
+						  "foto1  foto2  foto3  foto4"
+                          "foto5  foto6  foto7  foto8";
+	}
+	
+	.encabezado{
+		grid-area: titulo;
+	}
+	.foto .foto1{
+		grid-area: foto1;
+	}
+    .foto .foto2{
+    	grid-area: foto2;
+    }
+    .foto .foto3{
+    	grid-area: foto3;
+    }
+    .foto .foto4{
+    	grid-area: foto4;
+    }
+    .foto .foto5{
+		grid-area: foto5;
+	}
+    .foto .foto6{
+    	grid-area: foto6;
+    }
+    .foto .foto7{
+    	grid-area: foto7;
+    }
+    .foto .foto8{
+    	grid-area: foto8;
+    }
+    img{
+    	width: 100%;
+    	height: 100%;
+    }
+
+
+footer{
+	height: 150px;
+	background-color: blue;
+}
+
+	             /*     PAGINA ESTETICA    */
+.cabecera{
+	height: 140px;
+}
+
+.estetica{
+	height: 1000px;
+	display: grid;
+	align-items: center;
+	padding:10px;
+	row-gap:20px;
+	column-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 3fr 3fr;
+	
+	grid-template-areas: "titulo titulo titulo titulo"
+						  "foto1  foto2  foto3  foto4"
+                          "foto5  foto6  foto7  foto8";
+	}
+	
+	.encabezado{
+		grid-area: titulo;
+	}
+	.foto .foto1{
+		grid-area: foto1;
+	}
+    .foto .foto2{
+    	grid-area: foto2;
+    }
+    .foto .foto3{
+    	grid-area: foto3;
+    }
+    .foto .foto4{
+    	grid-area: foto4;
+    }
+    .foto .foto5{
+		grid-area: foto5;
+	}
+    .foto .foto6{
+    	grid-area: foto6;
+    }
+    .foto .foto7{
+    	grid-area: foto7;
+    }
+    .foto .foto8{
+    	grid-area: foto8;
+    }
+    img{
+    	width: 100%;
+    	height: 100%;
+    }
+    h2{
+		text-align: center;
+		font-size: 28px;
+		color: whitesmoke;
+		font-style: italic;
+	}
+	
+footer{
+	height: 150px;
+	background-color: seagreen;
+}
+
+                /*  GALERIA OTROS   */
+
+.cabecera{
+	height: 140px;
+}
+
+.otros{
+	height: 1000px;
+	display: grid;
+	align-items: center;
+	row-gap:20px;
+	padding: 10px;
+	column-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 3fr 3fr;
+	
+	grid-template-areas: "titulo titulo titulo titulo"
+						  "foto1  foto2  foto3  foto4"
+                          "foto5  foto6  foto7  foto8";
+	}
+	
+	.encabezado{
+		grid-area: titulo;
+	}
+	.foto .foto1{
+		grid-area: foto1;
+	}
+    .foto .foto2{
+    	grid-area: foto2;
+    }
+    .foto .foto3{
+    	grid-area: foto3;
+    }
+    .foto .foto4{
+    	grid-area: foto4;
+    }
+    .foto .foto5{
+		grid-area: foto5;
+	}
+    .foto .foto6{
+    	grid-area: foto6;
+    }
+    .foto .foto7{
+    	grid-area: foto7;
+    }
+    .foto .foto8{
+    	grid-area: foto8;
+    }
+    .foto{
+    	width: 100%;
+    	height: 100%;
+    }
+
+      h2{
+		text-align: center;
+		font-size: 28px;
+		color: whitesmoke;
+		font-style: italic;
+	}
+
+.footer_otros{
+	height: 150px;
+	background-color: seagreen;
+}
+
+.formulario{
+	height: 800px;
+	width: 100%;
+}
+	
+				/* MEDIAS QUERYS PARA ADAPTAR EL SITIO A MOBILE */
+
+@media screen and (max-width: 425px){
+
+	.cabecera{
+		height: 170px;
+	}
+
+	.cabecera .botones{
+		justify-content: center;
+		gap: 10px;
+		font-size: 13px;
+		padding: 10px;
+	}
+
+	#quienes_somos{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+		.caja1{
+		height: 300px;
+		width: 48%;
+		text-align: center;
+		font-style: italic;
+		font-size: 12px;
+		color: whitesmoke;
+	}
+	.caja2{
+		height: 300px;
+		width: 48%;
+	}
+		.caja2 img{
+			height: 200px;
+			width: 200px;
+			border-radius: 30px
+		}
+
+	#que_hacemos{
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+		.caja3{
+		height: 250px;
+		width: 50%
+
+	}
+		.caja3 img{
+			height: 200px;
+			width: 200px;
+			border-radius: 30px;
+		}
+
+	.caja4{
+		height: 250px;
+		width: 50%;
+		text-align: center;
+		font-style: italic;
+		font-size: 12px;
+		color: whitesmoke;
+	}
+	.botones_main{
+		font-size: 14px;
+		border-radius: 8px;
+	}
+
+	.galería_imagenes{
+	display: flex;
+	gap: 10px;
+	flex-wrap: nowrap;
+	justify-content: center;
+				}
+	.caja5a{
+			height: 280px
+		}
+		.caja5a p{
+			font-size: 13px;
+		}
+	.caja5b{
+			height: 280px
+		}
+		.caja5b p{
+			font-size: 13px;
+		}
+	.caja5c{
+			height: 280px
+		}
+		.caja5c p{
+			font-size: 13px;
+		}
+	.caja5d{
+			height: 280px
+		}
+		.caja5d p{
+			font-size: 13px;
+		}
+
+	#galerías a{
+		font-size: 15px;
+	}
+
+	#ubicacion{
+	height: 440px;
+	width: 100%;
+	padding:10px;
+	color: whitesmoke;
+	}
+
+	.estetica{
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+	 
+	 .cocina{
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	}   
+
+	.otros{
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	}  
+
+	.formulario{
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+
+	.dormitorio{
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+
+}	              
+
